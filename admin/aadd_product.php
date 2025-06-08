@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="alert alert-success"><?= $success ?></div>
         <?php endif; ?>
         
-        <form action="aadd_product.php" method="post" enctype="multipart/form-data">
+        <form action="add_product.php" method="post" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="name" class="form-label">Product Name</label>
                 <input type="text" class="form-control" id="name" name="name" required>
